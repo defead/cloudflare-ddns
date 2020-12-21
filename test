@@ -1,0 +1,7 @@
+. ./config
+
+curl -sSL \
+      -H "Accept: application/json" \
+      -H "Content-Type: application/json" \
+      -H "Authorization: Bearer $API_KEY" \
+      "$CF_API/zones?name=$ZONE"
