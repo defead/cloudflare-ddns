@@ -1,4 +1,4 @@
-# . ./cloudflare.conf
+. ./cloudflare.conf
 
 DnsIpAddress=$(getDnsRecordIp $CF_ZONE_ID $CF_RECORD_ID)
 
